@@ -2,7 +2,7 @@
 Download image files slowly
 
 # How to Use:
-- Download `fix_google_drive.exe`
+- Download `fix_google_drive.exe`: https://github.com/avita21/DriveDownload/releases/download/v0/fix_google_drive.exe
 - Create a new folder
 - Move `fix_google_drive.exe` into the new folder
 - Copy any Tabletop Simulator save file (`\Tabletop Simulator\Saves\XXX.json`) into the new folder
