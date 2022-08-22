@@ -39,13 +39,13 @@ def main():
         if file.endswith('.json'):
             save_state = file
             break
-    with open(save_state, "r") as read_file:
+    with open(save_state, "rb") as read_file:
         print("Reading", save_state)
         save_file = json.load(read_file)
         flat_save = flatten(save_file)
         download_counter = 0
         index = 0
-        drive_list = [val for key, val in flat_save.items() if 'drive' in str(val)]
+        drive_list = [val for key, val in flat_save.items() if 'drive.' in str(val)]
         drive_list = list(set(drive_list))
         print("Downloading", len(drive_list), "Drive files...")
         for file in drive_list:
