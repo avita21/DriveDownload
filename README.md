@@ -14,3 +14,18 @@ Download image files slowly
 - Copy the image files in the new folder to the Images folder in Tabletop Simulator: (`\Tabletop Simulator\Mods\Images`)
 - Run Tabletop Simulator (make sure Mod Caching is on)
 - TTS should use the local files!
+
+# Troubleshooting:
+
+If you are seeing these errors in the spawned console:
+```
+Access denied with the following error:
+
+        Cannot retrieve the public link of the file. You may need to change
+        the permission to 'Anyone with the link', or have had many accesses.
+
+You may still be able to access the file from the browser
+```
+This means google drive is limiting your automated downloads for their files: image
+
+You will need to wait until these messages clear up, and then re-run the program. This may take a couple hours or a day to resolve. (You can also try using a different VPN connection to bypass google.)
